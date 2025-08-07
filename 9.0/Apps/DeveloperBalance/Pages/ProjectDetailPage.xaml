@@ -168,7 +168,6 @@
                         IsVisible="{Binding HasCompletedTasks}"
                         Command="{Binding CleanTasksCommand}"
                         SemanticProperties.Description="Clean up"
-                        Background="{AppThemeBinding Dark={StaticResource DarkSecondaryBackground}}"
                         />
                 </Grid>
                 <VerticalStackLayout 

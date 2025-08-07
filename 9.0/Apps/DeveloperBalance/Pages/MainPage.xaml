@@ -70,8 +70,7 @@
                                 WidthRequest="44"
                                 IsVisible="{Binding HasCompletedTasks}"
                                 Command="{Binding CleanTasksCommand}"
-                                SemanticProperties.Description="Clean tasks" 
-                                Background="{AppThemeBinding Dark={StaticResource DarkSecondaryBackground}}" />
+                                SemanticProperties.Description="Clean tasks" />
                         </Grid>
                         <VerticalStackLayout Spacing="15"
                             BindableLayout.ItemsSource="{Binding Tasks}">
